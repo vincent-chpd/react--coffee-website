@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar text-primary">
       <img
-        src="https://t4.ftcdn.net/jpg/05/14/51/79/360_F_514517927_dXLi1DauUmrCaE3AkElsVgJ1jaYZMcSA.jpg"
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/474px-Starbucks_Corporation_Logo_2011.svg.png?20230513193844"
         alt="Logo"
         id="nav--logo"
       />

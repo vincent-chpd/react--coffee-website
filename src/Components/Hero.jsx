@@ -1,22 +1,21 @@
 import "../assets/stylesheets/Hero.css";
-import "./Buttons.css";
+import "../assets/stylesheets/Buttons.css";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero--text">
-        <h1>Taste Best Coffee</h1>
-        <h4>Sip joy, savour moments, love coffee </h4>
-        <p>
-          Welcome to **insert name** cafe, where passion meets perfection in
-          every cup. Explore our exquisite range of handpicked blends and
-          single-origin beans.
-        </p>
+        <h1>Summer at first sip</h1>
+        <h4>Say hello to fun new flavours and classic favourites </h4>
         <div className="hero--btn">
-          <button className="primary-btn">Order Now</button>
-          <button className="secondary-btn">Explore</button>
+          <button>Order Now</button>
         </div>
       </div>
+      <img
+        className="hero--img"
+        src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-91829.jpg"
+        alt="images of ice coffees"
+      />
     </div>
   );
 };

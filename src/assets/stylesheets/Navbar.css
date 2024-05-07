@@ -1,6 +1,7 @@
 .navbar {
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -12,6 +13,7 @@
 #nav--logo {
   width: 90px;
   height: 90px;
+  margin: 20px;
 }
 
 .nav--links {
@@ -38,7 +40,7 @@
 }
 
 .nav--search button {
-  background-color: #04362b;
+  background-color: #016439;
   color: white;
   border-radius: 10px;
   padding: 4px 16px;
