@@ -3,7 +3,7 @@
   background-color: #016439;
   color: white;
   border-radius: 8px;
-  padding: 18px 64px;
+  padding: 16px 24px;
   transition: 0.2s ease-in;
 }
 
@@ -11,22 +11,18 @@
   border: 1px solid #016439;
   background-color: white;
   color: #016439;
-  border-radius: 8px;
-  padding: 18px 64px;
 }
 
 .secondary-btn {
-  border: 1px solid #016439;
-  color: #016439;
+  border: 1px solid white;
+  color: white;
   border-radius: 8px;
-  padding: 18px 64px;
+  padding: 16px 24px;
   transition: 0.2s ease-in-out;
 }
 
 .secondary-btn:hover {
-  border: 1px solid #016439;
+  border: 1px solid #262cd6;
   background-color: white;
-  color: #016439;
-  border-radius: 8px;
-  padding: 18px 64px;
+  color: #262cd6;
 }

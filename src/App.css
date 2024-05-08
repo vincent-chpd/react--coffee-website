@@ -14,9 +14,15 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   color: #016439;
   font-weight: 600;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 16px;
 }
 
 h4 {

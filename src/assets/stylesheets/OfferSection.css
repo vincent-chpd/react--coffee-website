@@ -1,0 +1,19 @@
+.offer-section {
+  background-color: #fcf7d8;
+}
+
+.offer--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  margin-left: 80px;
+}
+
+.offer--text button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}

@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>Summer at first sip</h1>
         <h4>Say hello to fun new flavours and classic favourites </h4>
 
-        <button className="hero--btn">Order Now</button>
+        <button className="secondary-btn">Order Now</button>
       </div>
       <img
         className="hero--img"
