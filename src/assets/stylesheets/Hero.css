@@ -3,7 +3,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  margin: 30px 60px;
+  margin: 30px auto;
 }
 
 .hero--text {
@@ -17,16 +17,22 @@
   padding-left: 60px;
 }
 
+.hero--img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .hero--btn {
   font-size: 20px;
   border: 1px solid white;
   border-radius: 32px;
   display: inline-block;
   padding: 8px 32px;
+  transition: 0.2s ease-in;
 }
 
-.hero--img {
-  width: 50vw;
-  object-fit: fill;
-  object-position: center;
+.hero--btn:hover {
+  background-color: white;
+  color: #262cd6;
 }

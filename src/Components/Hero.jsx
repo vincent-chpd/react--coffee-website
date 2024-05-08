@@ -3,13 +3,12 @@ import "../assets/stylesheets/Buttons.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero container mx-auto">
       <div className="hero--text">
         <h1>Summer at first sip</h1>
         <h4>Say hello to fun new flavours and classic favourites </h4>
-        <div className="hero--btn">
-          <button>Order Now</button>
-        </div>
+
+        <button className="hero--btn">Order Now</button>
       </div>
       <img
         className="hero--img"

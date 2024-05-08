@@ -1,10 +1,12 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .card-container img {
+  cursor: pointer;
 }
