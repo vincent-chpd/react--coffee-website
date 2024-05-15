@@ -1,5 +1,6 @@
 .navbar {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
   background-color: white;
@@ -21,8 +22,15 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-
   cursor: pointer;
+}
+
+.nav--links li {
+  border-bottom: 2px solid white;
+}
+
+.nav--links li:hover {
+  border-bottom: 2px solid #1b1b1b;
 }
 
 .nav--search {
@@ -41,7 +49,7 @@
 }
 
 .nav--search button {
-  background-color: #016439;
+  background-color: #1b1b1b;
   color: white;
   border-radius: 10px;
   padding: 4px 16px;

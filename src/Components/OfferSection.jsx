@@ -5,7 +5,7 @@ export const OfferSection = () => {
   return (
     <div className="offer-section flex container mx-auto my-10">
       <img
-        src="https://i.pinimg.com/564x/23/50/c5/2350c5d398277e74638fe3f218de2da9.jpg"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYY4i-snCwo8M8LRJ24eLXmGkqDDZDnBN2c_B-8whR-S7adYcnDn2ZHH418ioGylVjgeA&usqp=CAU"
         alt="image of slushies"
       />
       <div className="offer--text">

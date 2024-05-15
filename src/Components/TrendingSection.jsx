@@ -7,7 +7,7 @@ export const TrendingSection = () => {
       <div className="grid grid-cols-4 col-auto mx-20 gap-10">
         <Card
           img="https://tb-static.uber.com/prod/image-proc/processed_images/83eb8ec02f9ba44c88bba91d49c844e6/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
-          title="Strawberries & Cream Frappuccino®"
+          title="Strawberries & Cream Frappuccino"
           description="Frappuccino® crème syrup blended with milk, strawberry sauce and ice. Topped with whipped cream."
         />
         <Card
@@ -17,12 +17,12 @@ export const TrendingSection = () => {
         />
         <Card
           img="https://tb-static.uber.com/prod/image-proc/processed_images/30cb259d9f17a7b15a6f28a083a38553/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
-          title="Caramel Cream Frappuccino®"
+          title="Caramel & Cream Frappuccino"
           description="Coffee blended with caramel syrup, milk and ice. Topped with whipped cream and caramel sauce."
         />
         <Card
           img="https://tb-static.uber.com/prod/image-proc/processed_images/6d8c93f8124dd101bda9e9b0fb36ac30/a19bb09692310dfd41e49a96c424b3a6.jpeg"
-          title="Mango Dragonfruit Starbucks Refresha®"
+          title="Mango & Dragonfruit Refresher"
           description="A perfect blend of mango and dragon fruit flavours, this tropical beverage is hand-shaken with ice and dried dragon fruit pieces."
         />
       </div>

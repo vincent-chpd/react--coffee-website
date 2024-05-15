@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar text-primary">
       <div className="flex items-centere gap-10">
         <img
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/474px-Starbucks_Corporation_Logo_2011.svg.png?20230513193844"
+          src="https://cdn.vectorstock.com/i/500p/48/68/your-logo-here-placeholder-symbol-vector-34954868.jpg"
           alt="Logo"
           id="nav--logo"
         />
