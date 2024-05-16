@@ -3,6 +3,8 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
+import { CiHeart } from "react-icons/ci";
+import { FaHeart } from "react-icons/fa";
 
 const style = {
   position: "absolute",
@@ -22,11 +24,29 @@ export const Card = ({ img, title, description }) => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const [isLiked, setIsLiked] = React.useState(false);
+
+  function handleLike() {
+    setIsLiked(!isLiked);
+    console.log(isLiked);
+  }
 
   return (
     <div className="card-container my-10">
+      <button onClick={handleLike}>
+        {isLiked ? (
+          <FaHeart className="like-btn-full" />
+        ) : (
+          <CiHeart className="like-btn-empty" />
+        )}
+      </button>
       <img src={img} alt="" onClick={handleOpen} />
       <h4>{title}</h4>
+      <p>345Kcal per serving</p>
+      <div className="pricing">
+        <h5>£9.99</h5>
+        <button className="small-primary-btn">Add Item</button>
+      </div>
       <Modal
         open={open}
         onClose={handleClose}

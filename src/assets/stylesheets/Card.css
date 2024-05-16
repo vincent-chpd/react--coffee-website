@@ -1,12 +1,52 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  text-align: center;
+  justify-content: space-between;
+  align-items: start;
+  text-align: start;
   position: relative;
+  max-width: 250px;
 }
 
 .card-container img {
   cursor: pointer;
+  margin-top: 20px;
+}
+
+.pricing {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pricing h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.like-btn-empty {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.like-btn-full {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1021px) {
+  .pricing button {
+    margin: 0;
+  }
+  .pricing {
+    justify-content: center;
+  }
 }

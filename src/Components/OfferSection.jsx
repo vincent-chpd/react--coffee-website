@@ -3,10 +3,11 @@ import "../assets/stylesheets/OfferSection.css";
 
 export const OfferSection = () => {
   return (
-    <div className="offer-section flex container mx-auto my-10">
+    <div className="offer-section container mx-auto my-10">
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYY4i-snCwo8M8LRJ24eLXmGkqDDZDnBN2c_B-8whR-S7adYcnDn2ZHH418ioGylVjgeA&usqp=CAU"
+        src="https://sohocoffee.com/wp-content/uploads/bb-plugin/cache/Blog-Post-Image-Template-3-landscape.png"
         alt="image of slushies"
+        className="offer--img"
       />
       <div className="offer--text">
         <h2>Lastest Offerings</h2>
