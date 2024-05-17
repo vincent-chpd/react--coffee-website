@@ -18,6 +18,7 @@
   padding: 60px;
   text-wrap: wrap;
   width: 700px;
+  gap: 20px;
 }
 
 .hero--text p {

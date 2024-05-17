@@ -8,10 +8,10 @@ const Hero = () => {
         <h1>Taste Best Coffee</h1>
         <h4>Awaken your senses, one cup at a time. </h4>
         <p>
-          Welcome to [Coffee Shop Name], where every visit is a journey through
-          the aromatic world of exceptional coffee. Join us in savoring the
-          finest blends and experiencing the warmth of our inviting ambiance.
-          Start your day the right way, one cup at a time.
+          Welcome where every visit is a journey through the aromatic world of
+          exceptional coffee. Join us in savoring the finest blends and
+          experiencing the warmth of our inviting ambiance. Start your day the
+          right way, one cup at a time.
         </p>
         <div className="flex gap-4">
           <button className="primary-btn">Order Now</button>

@@ -1,0 +1,21 @@
+.story-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  width: 50%;
+}
+
+.story-container {
+  display: flex;
+  height: 50vh;
+}
+
+.story-img {
+  display: flex;
+  gap: 20px;
+}
+
+.story-img img {
+  border-radius: 8px;
+}

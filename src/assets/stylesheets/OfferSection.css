@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   background-color: none;
+  height: 50vh;
 }
 
 .offer--text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin: 60px;
-  width: 600px;
 }
 
 .offer--text button {
@@ -21,7 +21,7 @@
 }
 
 .offer--img {
-  width: 600px;
+  max-width: 50vw;
   object-fit: cover;
   object-position: center;
   border-radius: 8px;

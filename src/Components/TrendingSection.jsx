@@ -4,7 +4,7 @@ export const TrendingSection = () => {
   return (
     <div className="text-center container  mx-auto my-8">
       <h2>Trending Drinks</h2>
-      <div className="flex justify-center gap-20">
+      <div className="card-grid">
         <Card
           img="https://tb-static.uber.com/prod/image-proc/processed_images/83eb8ec02f9ba44c88bba91d49c844e6/5954bcb006b10dbfd0bc160f6370faf3.jpeg"
           title="Strawberry milkshake"
